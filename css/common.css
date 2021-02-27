@@ -1,0 +1,133 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+:root {
+  --logo-special-color: rgb(33, 150, 243);
+  --special-grey-color: #757575;
+  --bgc-hero-footer: #2f303a;
+  /* --color-for-outline: #f00; */
+}
+
+/* HW nr. 3 */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 1px solid var(--color-for-outline);
+}
+
+/* header position */
+
+.container-header-nav-list {
+  outline: 1px solid var(--color-for-outline);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.container-header-nav-list.items li {
+  margin-left: 50px;
+}
+
+.container-header-nav-list.items li:nth-last-child(3) {
+  margin-left: 93px;
+}
+
+.container-header-nav-list.items li:nth-last-child(4) {
+  margin-left: 0px;
+}
+
+.container-header-nav-list > .contacts > :last-child {
+  margin-left: 50px;
+}
+
+.underline-header {
+  border-bottom: 1px solid #ececec;
+  /* padding: 0 100px;
+  margin: 0px -100px;
+  min-width: auto; */
+}
+
+/* footer position */
+
+.footer-background {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  min-height: 252px;
+  background-color: var(--bgc-hero-footer);
+  /* margin: 0px -100px;
+  min-width: auto; */
+}
+
+.address-color {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fff;
+  letter-spacing: 0.03em;
+  outline: 1px solid var(--color-for-outline);
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.font-logo.footer-title {
+  outline: 1px solid var(--color-for-outline);
+}
+
+.footer-contacts li:not(:first-child) {
+  outline: 1px solid var(--color-for-outline);
+  margin-top: 9px;
+}
+
+.container-footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 246px;
+  padding-left: 15px;
+  margin-right: 70px;
+  margin-left: auto;
+  outline: 1px solid var(--color-for-outline);
+}
+.container-footer-join {
+  margin-top: 55px;
+  width: 869px;
+  margin-right: auto;
+  outline: 1px solid var(--color-for-outline);
+}
+
+address {
+  max-width: 246px;
+  padding: 0;
+  margin: 0;
+}
