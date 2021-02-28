@@ -31,8 +31,8 @@ body {
 
 :root {
   --logo-special-color: rgb(33, 150, 243);
-  --special-grey-color: #757575;
-  --bgc-hero-footer: #2f303a;
+  --special-grey-color: rgb(117, 117, 117);
+  --bgc-hero-footer: rgb(47, 48, 58);
   /* --color-for-outline: #f00; */
 }
 
